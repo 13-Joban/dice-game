@@ -1,0 +1,89 @@
+.game_cont{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+.score_cont {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+    width: 1280px;
+    height: 151px;
+    top: 64px;
+    gap: 593px;
+
+}
+
+.score_box {
+    width: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score_box p {
+
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    color: #000000;
+
+}
+
+.score_box span {
+    position: relative;
+    top: -35px;
+}
+
+.numsselect_cont {
+display: flex;
+top: 50px;
+flex-direction: column;
+gap: 10px;
+position: relative;
+
+}
+.warning {
+    font-family: "Poppins";
+    font-size: 24px;
+    top: 28px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ff0c0c;
+  }
+  
+.btns{
+    display: flex;
+    gap: 5px;
+}
+.numsselect_cont p{
+    position: absolute;
+    right: 5px;
+    top: 45px;
+}
+
+.play_cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.dice_img{
+    width: 250px;
+height: 250px;
+cursor: pointer;
+
+}
+.play_cont p{
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+}

@@ -1,0 +1,29 @@
+.rule_cont{
+    width: 794px;
+height: 300px;
+top: 776px;
+left: 338px;
+padding: 20px;
+background-color: #FBF1F1;
+display: flex;
+gap: 1px;
+flex-direction: column;
+}
+.rule_cont h3{
+font-size: 24px;
+font-weight: 700;
+margin-bottom: 5px;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+}
+.rule_cont p{
+    
+font-size: 14px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+}
